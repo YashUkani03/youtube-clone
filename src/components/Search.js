@@ -6,7 +6,7 @@ import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
 const CenteredSearchBar = () => {
     return (
         <div className='flex items-center'>
-            <div className="flex shadow overflow-hidden justify-between items-center w-500 border border-white border-gray-800" style={{ borderRadius: 500, width: 750 }} >
+            <div className="flex shadow overflow-hidden justify-between items-center w-500 border border-gray border-gray-800" style={{ borderRadius: 500, width: 750 }} >
                 <input
                     type="text"
                     className="outline-none border-gray-900 rounded w-full py-2 px-3 bg-black text-white"

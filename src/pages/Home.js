@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className="flex">
             <Sidebar className='fixed' />
-            <div className="flex flex-col w-full py-20">
+            <div className="flex flex-col w-full py-20 pl-16">
                 <div className="flex overflow-x-scroll overflow-x-hidden no-scrollbar bg-black whitespace-nowrap w-full">
                     <div className='px-12'>
                         {categories.map((category, index) => (

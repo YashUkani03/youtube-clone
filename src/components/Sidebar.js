@@ -6,7 +6,7 @@ import You from './home/You';
 
 const Sidebar = () => {
     return (
-        <div className=" flex h-screen bg-black text-white ml-1 py-16">
+        <div className=" fixed h-screen bg-black text-white ml-1 py-16">
 
             <ul className="py-2 w-15 ">
                 <li className=" items-center py-4 px-4">

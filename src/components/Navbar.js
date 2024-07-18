@@ -140,7 +140,7 @@ export default function PrimarySearchAppBar() {
               {/* <span style={{ marginLeft: '5px' }}>YouTube</span> */}
             </Typography>
           </div>
-          <div style={{ width: 600 }}>
+          <div style={{ width: 650 }}>
             <CenteredSearchBar />
           </div>
           <div style={{ display: 'flex', marginRight: 20 }}>

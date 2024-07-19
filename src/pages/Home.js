@@ -29,7 +29,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-wrap pt-10">
+                <div className="flex flex-wrap pt-12">
                     <div className="flex overflow-y-scroll no-scrollbar bg-black whitespace-nowrap pl-5">
                         <VideoList />
                     </div>

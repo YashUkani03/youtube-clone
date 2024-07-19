@@ -13,7 +13,7 @@ const VideoCard = ({ thumbnail, title, channel, views, date, videoId }) => {
     const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
 
     return (
-        <div className="bg-black text-white rounded-lg overflow-hidden shadow-lg flex flex-col">
+        <div className="bg-black text-white rounded-lg overflow-hidden shadow-lg flex flex-col mb-4">
             <a href={videoUrl} target='_blank' rel="noopener noreferrer" className="block">
                 <img className="w-full h-56 object-cover rounded-t-lg" src={thumbnail} alt={title} />
             </a>
